@@ -1,0 +1,43 @@
+<html>
+<head>
+    <title>PERSONAL ACCOUNT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+</head>
+    <body>
+        <div style="margin: 30px; width: 300px;">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary" onclick="message()">Submit</button>
+          </form>
+
+        </div>
+
+    </body>
+        
+
+</html>
+
+<script type="text/javascript">
+function message() {
+var email = document.getElementById("exampleInputEmail1").value;
+var pass = document.getElementById("exampleInputPassword1").value;
+var check = document.getElementById("exampleCheck1").checked;
+alert( 'YOU HACKED AZAZAZAZAZAZAZA'+ email+'YOU PASSWORD WE HAVE ЛОШАРА'+pass+check );
+}
+</script>
